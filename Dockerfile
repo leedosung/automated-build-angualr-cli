@@ -6,3 +6,8 @@ RUN apt-get install build-essential -y
 RUN apt-get install curl -y
 RUN apt-get install wget -y
 
+RUN mkdir -p /app
+WORKDIR /app
+ADD . /app
+
+CMD ["pwd"]
