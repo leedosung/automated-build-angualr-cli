@@ -5,7 +5,7 @@ RUN apt-get update -y
 RUN apt-get install build-essential -y
 RUN apt-get install curl -y
 RUN apt-get install wget -y
-RUN curl -sL https://deb.nodesource.com/setup_6.x | sudo -E bash - && apte-get install -y nodejs
+RUN curl -sL https://deb.nodesource.com/setup_6.x | bash - && apt-get install -y nodejs
 
 RUN mkdir -p /app
 WORKDIR /app
