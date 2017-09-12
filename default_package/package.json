@@ -9,9 +9,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e",
-    "deploy:dev": "gulp deploy:dev",
-    "deploy:prod": "gulp deploy:prod"
+    "e2e": "ng e2e"
   },
   "private": true,
   "dependencies": {
@@ -27,8 +25,6 @@
     "angular2-jwt": "^0.2.3",
     "chart.js": "^2.5.0",
     "core-js": "^2.4.1",
-    "gulp-shell": "^0.6.3",
-    "gulp-sync": "^0.1.4",
     "moment": "^2.18.1",
     "ng2-charts": "^1.5.0",
     "ng2-mqtt": "^0.1.2",
@@ -41,8 +37,6 @@
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
     "codelyzer": "~2.0.0",
-    "gulp-awspublish": "^3.3.0",
-    "gulp-cloudfront": "0.0.14",
     "jasmine-core": "~2.5.2",
     "jasmine-spec-reporter": "~3.2.0",
     "karma": "~1.4.1",
